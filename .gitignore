@@ -1,2 +1,21 @@
 /cmake-build-debug/
-/cmake-build-debug/*
+/cmake-build-debug/CMakeFiles/
+/cmake-build-debug/Testing/
+/cmake-build-debug/textures/
+/cmake-build-debug/12221_Cat_v1_l3.mtl
+/cmake-build-debug/12221_Cat_v1_l3.obj
+/cmake-build-debug/Cat_bump.jpg
+/cmake-build-debug/Cat_diffuse.jpg
+/cmake-build-debug/cmake_install.cmake
+/cmake-build-debug/CMakeCache.txt
+/cmake-build-debug/fragmentShader.glsl
+/cmake-build-debug/iphone.mtl
+/cmake-build-debug/iphone.obj
+/cmake-build-debug/Lowpoly_Notebook_2.mtl
+/cmake-build-debug/Lowpoly_Notebook_2.obj
+/cmake-build-debug/Makefile
+/cmake-build-debug/Notebook Low poly_2.PNG
+/cmake-build-debug/Robo_1.obj
+/cmake-build-debug/untitled
+/cmake-build-debug/untitled.cbp
+/cmake-build-debug/vertexShader.glsl
