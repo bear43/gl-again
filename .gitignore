@@ -19,3 +19,6 @@
 /cmake-build-debug/untitled
 /cmake-build-debug/untitled.cbp
 /cmake-build-debug/vertexShader.glsl
+/.idea/**
+/.idea/*
+/.idea/

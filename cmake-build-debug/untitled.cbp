@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/konstantin/CLionProjects/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/konstantin/CLionProjects/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/konstantin/CLionProjects/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled">
+				<Option output="/home/konstantin/CLionProjects/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/konstantin/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled/fast">
+				<Option output="/home/konstantin/CLionProjects/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/konstantin/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/konstantin/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Buffer/Buffer/Buffer.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Buffer/Buffer/Buffer.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Buffer/VAO/VAO.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Buffer/VAO/VAO.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Common/IdHolder.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Common/IdHolder.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Mesh/Mesh.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Mesh/Mesh.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Object.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Object.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Util/OBJ_Loader.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Util/ObjectFactory.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Util/ObjectFactory.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Util/Transformation.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Object/Util/Transformation.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/Camera.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/Camera.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/FrameRender.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/FrameRender.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/Renderer.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/Renderer.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Shader/Shader.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Shader/Shader.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Shader/ShaderProgram.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Shader/ShaderProgram.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Utils/Starter.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Utils/Starter.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
