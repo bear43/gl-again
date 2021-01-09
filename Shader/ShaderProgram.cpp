@@ -18,6 +18,10 @@ ShaderProgram::ShaderProgram(const Shader &vertexShader, const Shader& fragmentS
     materialAmbientColorLocation = glGetUniformLocation(id, "material.ambientColor");
     materialDiffuseColorLocation = glGetUniformLocation(id, "material.diffuseColor");
     materialSpecularColorLocation = glGetUniformLocation(id, "material.specularColor");
+    //materialAmbientTextureSamplerLocation = glGetUniformLocation(id, "material.textureSampler");
+    lightPosLocation = glGetUniformLocation(id, "lightPos");
+    viewPosLocation = glGetUniformLocation(id, "viewPos");
+    mousePosNDCLocation = glGetUniformLocation(id, "mousePosNDC");
 }
 
 ShaderProgram::~ShaderProgram() {
@@ -44,4 +48,17 @@ void ShaderProgram::setMaterial(objl::Material &material) {
     glUniform3fv(materialAmbientColorLocation, 1, &glm::vec3(material.Ka.X, material.Ka.Y, material.Ka.Z)[0]);
     glUniform3fv(materialDiffuseColorLocation, 1, &glm::vec3(material.Kd.X, material.Kd.Y, material.Kd.Z)[0]);
     glUniform3fv(materialSpecularColorLocation, 1, &glm::vec3(material.Ks.X, material.Ks.Y, material.Ks.Z)[0]);
+    //glUniform1i(materialAmbientTextureSamplerLocation, 0); // Texture unit 0 is for base images.
+}
+
+void ShaderProgram::setLightPos(glm::vec3 &position) const {
+    glUniform3f(lightPosLocation, position.x, position.y, position.z);
+}
+
+void ShaderProgram::setViewPos(glm::vec3 &position) const {
+    glUniform3f(viewPosLocation, position.x, position.y, position.z);
+}
+
+void ShaderProgram::setMousePos(glm::vec3 &position) const {
+    glUniform3f(mousePosNDCLocation, position.x, position.y, position.z);
 }

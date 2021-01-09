@@ -91,9 +91,18 @@ void Camera::updateViewMatrix() {
 void Camera::draw(ShaderProgram &shaderProgram) {
     shaderProgram.setProjectionMatrix(projection);
     shaderProgram.setViewMatrix(view);
+    shaderProgram.setViewPos(eye);
 }
 
 Camera &Camera::getMainCamera() {
     static Camera mainCamera(1024, 768);
     return mainCamera;
+}
+
+const glm::mat4 &Camera::getProjection() const {
+    return projection;
+}
+
+const glm::mat4 &Camera::getView() const {
+    return view;
 }

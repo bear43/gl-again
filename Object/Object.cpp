@@ -11,6 +11,8 @@ Object::Object(const string &name, objl::Loader &loader) : name(name) {
 }
 
 void Object::draw(const ShaderProgram &shaderProgram) {
+    static const glm::vec3 position = glm::vec3{0.0f, 3.0f, 3.0f};
+    shaderProgram.setLightPos(const_cast<glm::vec3 &>(position));
     for(Mesh *mesh : meshes) {
         VAO *pVao = mesh->getVao();
         pVao->bindBuffer();

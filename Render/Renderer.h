@@ -15,6 +15,7 @@
 #include "../Buffer/Buffer/Buffer.h"
 #include "../Object/Object.h"
 #include "../Object/Util/ObjectFactory.h"
+#include "Cursor.h"
 #include "Camera.h"
 #include <vector>
 
@@ -23,9 +24,9 @@
  */
 class Renderer {
 private:
-    //const GLfloat M_PI = 1.0f;// = 3.14159265358979323846;
     ShaderProgram shaderProgram;
-    Object *model = nullptr;
+    //Object *model = nullptr;
+    std::vector<Object*> models;
 public:
     Renderer(const std::string &vertexShaderFilename, const std::string &fragmentShaderFilename);
     virtual ~Renderer();

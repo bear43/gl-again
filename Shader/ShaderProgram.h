@@ -24,6 +24,10 @@ public:
     GLint materialAmbientColorLocation = -1;
     GLint materialDiffuseColorLocation = -1;
     GLint materialSpecularColorLocation = -1;
+    GLint materialAmbientTextureSamplerLocation = -1;
+    GLint lightPosLocation = -1;
+    GLint viewPosLocation = -1;
+    GLint mousePosNDCLocation = -1;
     ShaderProgram(const Shader &vertexShader, const Shader& fragmentShader);
     virtual ~ShaderProgram();
     void setModelMatrix(const glm::mat4 &modelMatrix) const;
@@ -31,6 +35,9 @@ public:
     void setViewMatrix(glm::mat4 &viewMatrix) const;
     void use();
     void setMaterial(objl::Material &material);
+    void setLightPos(glm::vec3 &position) const;
+    void setViewPos(glm::vec3 &position) const;
+    void setMousePos(glm::vec3 &position) const;
 };
 
 

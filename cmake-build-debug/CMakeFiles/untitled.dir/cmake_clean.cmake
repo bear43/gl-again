@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/Object/Util/ObjectFactory.cpp.o"
   "CMakeFiles/untitled.dir/Object/Util/Transformation.cpp.o"
   "CMakeFiles/untitled.dir/Render/Camera.cpp.o"
+  "CMakeFiles/untitled.dir/Render/Cursor.cpp.o"
   "CMakeFiles/untitled.dir/Render/FrameRender.cpp.o"
   "CMakeFiles/untitled.dir/Render/Renderer.cpp.o"
   "CMakeFiles/untitled.dir/Shader/Shader.cpp.o"

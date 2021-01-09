@@ -359,6 +359,33 @@ Render/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Render/Camera.cpp.s
 .PHONY : Render/Camera.cpp.s
 
+Render/Cursor.o: Render/Cursor.cpp.o
+
+.PHONY : Render/Cursor.o
+
+# target to build an object file
+Render/Cursor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Render/Cursor.cpp.o
+.PHONY : Render/Cursor.cpp.o
+
+Render/Cursor.i: Render/Cursor.cpp.i
+
+.PHONY : Render/Cursor.i
+
+# target to preprocess a source file
+Render/Cursor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Render/Cursor.cpp.i
+.PHONY : Render/Cursor.cpp.i
+
+Render/Cursor.s: Render/Cursor.cpp.s
+
+.PHONY : Render/Cursor.s
+
+# target to generate assembly for a file
+Render/Cursor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Render/Cursor.cpp.s
+.PHONY : Render/Cursor.cpp.s
+
 Render/FrameRender.o: Render/FrameRender.cpp.o
 
 .PHONY : Render/FrameRender.o
@@ -554,6 +581,9 @@ help:
 	@echo "... Render/Camera.o"
 	@echo "... Render/Camera.i"
 	@echo "... Render/Camera.s"
+	@echo "... Render/Cursor.o"
+	@echo "... Render/Cursor.i"
+	@echo "... Render/Cursor.s"
 	@echo "... Render/FrameRender.o"
 	@echo "... Render/FrameRender.i"
 	@echo "... Render/FrameRender.s"

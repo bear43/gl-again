@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/konstantin/CLionProjects/untitled/Object/Util/ObjectFactory.cpp" "/home/konstantin/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Object/Util/ObjectFactory.cpp.o"
   "/home/konstantin/CLionProjects/untitled/Object/Util/Transformation.cpp" "/home/konstantin/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Object/Util/Transformation.cpp.o"
   "/home/konstantin/CLionProjects/untitled/Render/Camera.cpp" "/home/konstantin/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Render/Camera.cpp.o"
+  "/home/konstantin/CLionProjects/untitled/Render/Cursor.cpp" "/home/konstantin/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Render/Cursor.cpp.o"
   "/home/konstantin/CLionProjects/untitled/Render/FrameRender.cpp" "/home/konstantin/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Render/FrameRender.cpp.o"
   "/home/konstantin/CLionProjects/untitled/Render/Renderer.cpp" "/home/konstantin/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Render/Renderer.cpp.o"
   "/home/konstantin/CLionProjects/untitled/Shader/Shader.cpp" "/home/konstantin/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Shader/Shader.cpp.o"

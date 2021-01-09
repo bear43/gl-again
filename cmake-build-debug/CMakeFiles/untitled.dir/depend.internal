@@ -68,6 +68,20 @@ CMakeFiles/untitled.dir/Render/Camera.cpp.o
  /home/konstantin/CLionProjects/untitled/Render/Camera.h
  /home/konstantin/CLionProjects/untitled/Shader/Shader.h
  /home/konstantin/CLionProjects/untitled/Shader/ShaderProgram.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o
+ /home/konstantin/CLionProjects/untitled/Buffer/AbstractBuffer.h
+ /home/konstantin/CLionProjects/untitled/Buffer/Buffer/Buffer.h
+ /home/konstantin/CLionProjects/untitled/Buffer/VAO/VAO.h
+ /home/konstantin/CLionProjects/untitled/Common/IdHolder.h
+ /home/konstantin/CLionProjects/untitled/Object/Mesh/Mesh.h
+ /home/konstantin/CLionProjects/untitled/Object/Object.h
+ /home/konstantin/CLionProjects/untitled/Object/Util/OBJ_Loader.h
+ /home/konstantin/CLionProjects/untitled/Object/Util/Transformation.h
+ /home/konstantin/CLionProjects/untitled/Render/Camera.h
+ /home/konstantin/CLionProjects/untitled/Render/Cursor.cpp
+ /home/konstantin/CLionProjects/untitled/Render/Cursor.h
+ /home/konstantin/CLionProjects/untitled/Shader/Shader.h
+ /home/konstantin/CLionProjects/untitled/Shader/ShaderProgram.h
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o
  /home/konstantin/CLionProjects/untitled/Buffer/AbstractBuffer.h
  /home/konstantin/CLionProjects/untitled/Buffer/Buffer/Buffer.h
@@ -79,6 +93,7 @@ CMakeFiles/untitled.dir/Render/FrameRender.cpp.o
  /home/konstantin/CLionProjects/untitled/Object/Util/ObjectFactory.h
  /home/konstantin/CLionProjects/untitled/Object/Util/Transformation.h
  /home/konstantin/CLionProjects/untitled/Render/Camera.h
+ /home/konstantin/CLionProjects/untitled/Render/Cursor.h
  /home/konstantin/CLionProjects/untitled/Render/FrameRender.cpp
  /home/konstantin/CLionProjects/untitled/Render/FrameRender.h
  /home/konstantin/CLionProjects/untitled/Render/Renderer.h
@@ -96,6 +111,7 @@ CMakeFiles/untitled.dir/Render/Renderer.cpp.o
  /home/konstantin/CLionProjects/untitled/Object/Util/ObjectFactory.h
  /home/konstantin/CLionProjects/untitled/Object/Util/Transformation.h
  /home/konstantin/CLionProjects/untitled/Render/Camera.h
+ /home/konstantin/CLionProjects/untitled/Render/Cursor.h
  /home/konstantin/CLionProjects/untitled/Render/Renderer.cpp
  /home/konstantin/CLionProjects/untitled/Render/Renderer.h
  /home/konstantin/CLionProjects/untitled/Shader/Shader.h
@@ -130,6 +146,7 @@ CMakeFiles/untitled.dir/main.cpp.o
  /home/konstantin/CLionProjects/untitled/Object/Util/ObjectFactory.h
  /home/konstantin/CLionProjects/untitled/Object/Util/Transformation.h
  /home/konstantin/CLionProjects/untitled/Render/Camera.h
+ /home/konstantin/CLionProjects/untitled/Render/Cursor.h
  /home/konstantin/CLionProjects/untitled/Render/FrameRender.h
  /home/konstantin/CLionProjects/untitled/Render/Renderer.h
  /home/konstantin/CLionProjects/untitled/Shader/Shader.h

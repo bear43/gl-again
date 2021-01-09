@@ -7,10 +7,12 @@
 void FrameRender::init() {
     glfwSetInputMode(Starter::getMainWindow(), GLFW_STICKY_KEYS, GL_TRUE);
     glfwSetWindowSizeCallback(Starter::getMainWindow(), FrameRender::onResizeWindow);
+    glfwSetCursorPosCallback(Starter::getMainWindow(), Cursor::onPosChanged);
     onResizeWindow(Starter::getMainWindow(), Starter::getWidth(), Starter::getHeight());
     glEnableClientState(GL_VERTEX_ARRAY);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
+    glCullFace(GL_BACK);
     glEnable(GL_TEXTURE_2D);
     std::cout << "Инициализация рендеринга произведена" << std::endl;
 }

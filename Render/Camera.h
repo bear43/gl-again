@@ -13,7 +13,7 @@
 
 class Camera {
 protected:
-    GLfloat fov = 90.0f;
+    GLfloat fov = 45.0f;
     GLuint width;
     GLuint height;
     GLfloat zNear = 0.1f;
@@ -68,6 +68,10 @@ public:
     void draw(ShaderProgram &shaderProgram);
 
     static Camera& getMainCamera();
+
+    const glm::mat4 &getProjection() const;
+
+    const glm::mat4 &getView() const;
 
 };
 

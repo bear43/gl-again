@@ -68,6 +68,20 @@ CMakeFiles/untitled.dir/Render/Camera.cpp.o: ../Render/Camera.h
 CMakeFiles/untitled.dir/Render/Camera.cpp.o: ../Shader/Shader.h
 CMakeFiles/untitled.dir/Render/Camera.cpp.o: ../Shader/ShaderProgram.h
 
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Buffer/AbstractBuffer.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Buffer/Buffer/Buffer.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Buffer/VAO/VAO.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Common/IdHolder.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Object/Mesh/Mesh.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Object/Object.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Object/Util/OBJ_Loader.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Object/Util/Transformation.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Render/Camera.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Render/Cursor.cpp
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Render/Cursor.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Shader/Shader.h
+CMakeFiles/untitled.dir/Render/Cursor.cpp.o: ../Shader/ShaderProgram.h
+
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Buffer/AbstractBuffer.h
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Buffer/Buffer/Buffer.h
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Buffer/VAO/VAO.h
@@ -78,6 +92,7 @@ CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Object/Util/OBJ_Loader.h
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Object/Util/ObjectFactory.h
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Object/Util/Transformation.h
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Render/Camera.h
+CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Render/Cursor.h
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Render/FrameRender.cpp
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Render/FrameRender.h
 CMakeFiles/untitled.dir/Render/FrameRender.cpp.o: ../Render/Renderer.h
@@ -95,6 +110,7 @@ CMakeFiles/untitled.dir/Render/Renderer.cpp.o: ../Object/Util/OBJ_Loader.h
 CMakeFiles/untitled.dir/Render/Renderer.cpp.o: ../Object/Util/ObjectFactory.h
 CMakeFiles/untitled.dir/Render/Renderer.cpp.o: ../Object/Util/Transformation.h
 CMakeFiles/untitled.dir/Render/Renderer.cpp.o: ../Render/Camera.h
+CMakeFiles/untitled.dir/Render/Renderer.cpp.o: ../Render/Cursor.h
 CMakeFiles/untitled.dir/Render/Renderer.cpp.o: ../Render/Renderer.cpp
 CMakeFiles/untitled.dir/Render/Renderer.cpp.o: ../Render/Renderer.h
 CMakeFiles/untitled.dir/Render/Renderer.cpp.o: ../Shader/Shader.h
@@ -129,6 +145,7 @@ CMakeFiles/untitled.dir/main.cpp.o: ../Object/Util/OBJ_Loader.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Object/Util/ObjectFactory.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Object/Util/Transformation.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Render/Camera.h
+CMakeFiles/untitled.dir/main.cpp.o: ../Render/Cursor.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Render/FrameRender.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Render/Renderer.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Shader/Shader.h

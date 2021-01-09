@@ -9,6 +9,7 @@
 #include <memory>
 #include "Renderer.h"
 #include "../Utils/Starter.h"
+#include "Cursor.h"
 
 /**
  * Used for only task - render frame after frame in a cycle.

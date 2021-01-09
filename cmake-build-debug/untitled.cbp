@@ -133,6 +133,12 @@
 		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/Camera.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/Cursor.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/Cursor.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/konstantin/CLionProjects/untitled/Render/FrameRender.cpp">
 			<Option target="untitled"/>
 		</Unit>
