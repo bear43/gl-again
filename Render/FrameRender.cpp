@@ -8,6 +8,8 @@ void FrameRender::init() {
     glfwSetInputMode(Starter::getMainWindow(), GLFW_STICKY_KEYS, GL_TRUE);
     glfwSetWindowSizeCallback(Starter::getMainWindow(), FrameRender::onResizeWindow);
     glfwSetCursorPosCallback(Starter::getMainWindow(), Cursor::onPosChanged);
+    glfwSetMouseButtonCallback(Starter::getMainWindow(), Cursor::onClick);
+    glfwSetScrollCallback(Starter::getMainWindow(), Cursor::onScroll);
     onResizeWindow(Starter::getMainWindow(), Starter::getWidth(), Starter::getHeight());
     glEnableClientState(GL_VERTEX_ARRAY);
     glEnable(GL_DEPTH_TEST);

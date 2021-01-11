@@ -76,10 +76,6 @@ fstream
 math.h
 -
 
-/home/konstantin/CLionProjects/untitled/Object/Util/ObjectFactory.h
-../Object.h
-/home/konstantin/CLionProjects/untitled/Object/Object.h
-
 /home/konstantin/CLionProjects/untitled/Object/Util/Transformation.h
 GL/glew.h
 -
@@ -102,42 +98,14 @@ glm/gtc/matrix_transform.hpp
 ../Shader/ShaderProgram.h
 /home/konstantin/CLionProjects/untitled/Shader/ShaderProgram.h
 
+/home/konstantin/CLionProjects/untitled/Render/Cursor.cpp
+Cursor.h
+/home/konstantin/CLionProjects/untitled/Render/Cursor.h
+
 /home/konstantin/CLionProjects/untitled/Render/Cursor.h
 Camera.h
 /home/konstantin/CLionProjects/untitled/Render/Camera.h
 GLFW/glfw3.h
--
-
-/home/konstantin/CLionProjects/untitled/Render/Renderer.cpp
-Renderer.h
-/home/konstantin/CLionProjects/untitled/Render/Renderer.h
-
-/home/konstantin/CLionProjects/untitled/Render/Renderer.h
-iostream
--
-vector
--
-glm/glm.hpp
--
-../Shader/Shader.h
-/home/konstantin/CLionProjects/untitled/Shader/Shader.h
-../Shader/ShaderProgram.h
-/home/konstantin/CLionProjects/untitled/Shader/ShaderProgram.h
-../Buffer/VAO/VAO.h
-/home/konstantin/CLionProjects/untitled/Buffer/VAO/VAO.h
-../Object/Util/OBJ_Loader.h
-/home/konstantin/CLionProjects/untitled/Object/Util/OBJ_Loader.h
-../Buffer/Buffer/Buffer.h
-/home/konstantin/CLionProjects/untitled/Buffer/Buffer/Buffer.h
-../Object/Object.h
-/home/konstantin/CLionProjects/untitled/Object/Object.h
-../Object/Util/ObjectFactory.h
-/home/konstantin/CLionProjects/untitled/Object/Util/ObjectFactory.h
-Cursor.h
-/home/konstantin/CLionProjects/untitled/Render/Cursor.h
-Camera.h
-/home/konstantin/CLionProjects/untitled/Render/Camera.h
-vector
 -
 
 /home/konstantin/CLionProjects/untitled/Shader/Shader.h
